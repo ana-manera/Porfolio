@@ -21,7 +21,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet"> <!--fuente .linea1-->
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet"><!--fuente .linea2-->
 </head>
 
 <body>
@@ -43,8 +45,8 @@
                 <h3 class="linea1">¡Hola! Soy</h3>
                 <h1 class="linea2">Ana Manera</h1>
                 <p class="linea3">Desarrolladora, profesora y una mente curiosa </p>
-                <button class="boton"> 
-                    <a href="#Proyectos"> Lo que hago </a>
+                <button> 
+                    <a  class="boton" href="#Proyectos"> Lo que hago </a>
                 </button>
             </div>
         </div>
@@ -199,20 +201,20 @@
                 <form action="procesa.php" method="GET">
                <div class="div1-form"> 
                    <div class="nombre-form">
-                       <p>Nombre*</p>
+                       <label>Nombre*</label>
                         <input type="text" name="username"  required="required" placeholder="p. ej.:Ana">
                     </div>
                     <div class ="apellido-form">
-                        <p>Apellido*</p>
+                        <label>Apellido*</label>
                         <input type="text" name="surname"  required="required" placeholder="p. ej.:Manera">
                     </div> 
                  </div>
                 <div class="email-form">
-                    <p>Email*</p>
+                    <label>Email*</label>
                     <input type="text" name="email" required="required" placeholder="p. ej.:anavictoriamanera@gmail.com">
                 </div> <!--type= text o email??-->
                 <div class="mensaje-form">
-                    <p>Mensaje*</p>
+                    <label>Mensaje*</label>
                     <textarea name="comentario" placeholder="Escriba un comentario aquí"></textarea>
                 </div>
                 <br>

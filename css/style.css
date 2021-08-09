@@ -38,6 +38,11 @@ header {
     text-align: center;
 }
 /* en general*/
+h1 {
+    font-family: 'Karla', sans-serif; 
+    border:darkorchid solid 5px;
+    font-size: 2em;
+}
 a{
     text-decoration: none;
     color: black;
@@ -77,6 +82,7 @@ button {
     margin-top: 20vh auto 0 auto; 
     text-align: left;
     border: tomato solid 1px;
+    font-size: 2em; /*!!!*/
 }
 .texto-hola{
     width: 50%;
@@ -88,22 +94,24 @@ button {
 .centrado {
     align-items: center;
     border: palevioletred solid 2px;
-    padding-left: 10em;
+    padding-left: 2em;
     margin: 25% 10%;
 }
 .linea1 {
     font-family: 'Heebo', sans-serif;
     margin-top: 1.5em;
-    font-size: 2rem;
 }
 .linea2{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Karla', sans-serif;
+    color: rgba(14, 188, 194, 0.664);
     margin-top: .5em;
-    font-size: 3rem;
+    font-size: 3rem; /*!!!*/
+
 }
 .linea3{
     font-family: 'Roboto', sans-serif;
     margin: 1.5em 0;
+    font-size: 0.65em; /*!!!*/
 }
 .imagen-hola {
     border:red solid 2px;
@@ -131,7 +139,7 @@ button {
 .titulo-conocimientos{
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  font-size: 2 rem;
- margin-top: 3.5em;
+ margin: 3.5em 0  2em 0 ;
 }
 .texto-conocimiento {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -267,6 +275,7 @@ color: violet;
     border: solid rgb(124, 1, 1) 3px;
 }
 .Contactame h1 {
+    font-family: 'Karla', sans-serif;
     margin: 0.5em;
 }
 
@@ -367,3 +376,4 @@ footer {
     color: white;
 }
 /*----Fin footer----*/
+/*----Media quore----*/
