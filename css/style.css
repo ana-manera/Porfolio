@@ -92,10 +92,10 @@ button {
     align-items: center;
 }
 .centrado {
-    align-items: center;
+    align-items: center ;
     border: palevioletred solid 2px;
     padding-left: 2em;
-    margin: 25% 10%;
+    
 }
 .linea1 {
     font-family: 'Heebo', sans-serif;
@@ -170,6 +170,9 @@ button {
     background-color: white;
     text-align: center;/*!!!*/
 }
+.conocimiento-boxes div a {
+    padding: 0%;
+}
 .conocimientos-boxes div p {
     font-family: 'Karla', sans-serif;
 }
@@ -191,13 +194,13 @@ color: violet;
     width: 70%;
     /*margin: 0 auto;*/
     display: flex;
-    justify-content: center;
+    justify-content: stretch;
     flex-direction: column;
     align-items: center;
     border:rgb(235, 82, 27) solid 3px;
 }
 .img-comillas {
-    margin: 1em 0;
+    margin: 0.5em 0;
     width: 30%;
     border: saddlebrown solid 2px;
 }
@@ -288,7 +291,7 @@ color: violet;
 }
 .Contactame h1 {
     font-family: 'Karla', sans-serif;
-    margin: 0.5em;
+    margin-bottom: 1em;
 }
 
 .Contactame-list {
@@ -393,6 +396,7 @@ footer {
     border-radius: 50%;
     padding: 50%;
     border: solid white 1px;
+    
 }
 .redes:hover {
     background-color: rgba(14, 188, 194, 0.664) ;
@@ -400,3 +404,69 @@ footer {
 }
 /*----Fin footer----*/
 /*----Media quore----*/
+ @media (max-width:1524px){
+   .cita{
+    height: 100vh;
+   }
+}
+
+@media (max-width:1100px){
+    header {
+        display: none;
+    }
+    .conocimientos-boxes {
+        width: 100%;
+    }
+    .cita-div {
+        width: 100%;
+    } 
+    .proyectos-boxes {
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .imagen-hola img {
+        margin-left: 1.5em;
+    }
+    .someone {
+        width: 100%;
+    }
+    #Contacto {
+        flex-direction: column;
+    }
+    .Contactame, .Escribime{
+        width: 100%;
+    }
+}
+@media (max-width:480px){
+    .presentación {
+        display: flex;
+        flex-direction: column;
+    }
+    .texto-hola, .imagen-hola {
+        width: 100%;
+    }
+    .proyectos-boxes{
+        justify-content: center;
+    }
+    .div1-form {
+        flex-direction: column;
+    }
+    .footer-container {
+        display: none;
+    }
+    .footer-redes, .made-in  {
+        width: 50%;
+    }
+}
+@media (max-width:320px){
+    .centrado{
+        padding: 0 1em;
+    }
+    .Contactame-list{
+        width: 100%;
+    }
+    .footer-redes {
+        width: 70%;
+    }
+}
