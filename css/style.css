@@ -40,17 +40,15 @@ header {
 /* en general*/
 h1 {
     font-family: 'Karla', sans-serif; 
-    border:darkorchid solid 5px;
-    font-size: 2em;
+    font-size: 2rem;
 }
 a{
     text-decoration: none;
     color: black;
-    padding: 20px;
-    font-size: 1em;
+    padding: 1.25em;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    /*display: block;*/ 
 }
 a:hover {
     color: violet;
@@ -70,6 +68,8 @@ a:hover {
 button {
     color: white;
     border-color: rgba(14, 188, 194, 0.664);  
+    background: none;
+    border: none;
 }
 /*---- fin barra de navegación ----*/
 /*----Section hola----*/
@@ -81,19 +81,16 @@ button {
     justify-content: space-around;
     margin-top: 20vh auto 0 auto; 
     text-align: left;
-    border: tomato solid 1px;
-    font-size: 2em; /*!!!*/
+    font-size: 2rem; 
 }
 .texto-hola{
     width: 50%;
-    border: green solid 2px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .centrado {
     align-items: center ;
-    border: palevioletred solid 2px;
     padding-left: 2em;
     
 }
@@ -104,39 +101,35 @@ button {
 .linea2{
     font-family: 'Karla', sans-serif;
     color: rgba(14, 188, 194, 0.664);
-    margin-top: .5em;
+    margin-top: 0.5em;
     font-size: 3rem; 
 
 }
 .linea3{
     font-family: 'Roboto', sans-serif;
     margin: 1.5em 0;
-    font-size: 0.65em; 
+    font-size: 1rem; 
 }
 .imagen-hola {
-    border:red solid 2px;
     width: 50%;
     display: flex;
-   justify-content: flex-start;
-   align-items: center;  
+    justify-content: flex-start;
+    align-items: center;  
 }
 .imagen-hola img {
     width: 70%;
     height: 70%;
-    border: orangered solid 2px;
 }
  /*---- Fin section hola ----*/
 
  /*----Inicio section mis conocimientos*/
- #Conocimientos{
+.conocimientos{
      width: 100%;
-     border: purple 2px solid;
      padding-bottom: 3em;
      background-color: #f6f7fb;
- }
- .conocimiento-texto {
+}
+.conocimiento-texto {
     width: 100%;
-    border: red 10px solid;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .titulo-conocimientos{
@@ -145,10 +138,9 @@ button {
 }
 .texto-conocimientos {
     font-size: 1.2rem;
-    border: yellow solid 2px;
     margin-bottom: 1em;
 }
- .conocimientos-boxes{
+.conocimientos-boxes{
      display: flex;
      justify-content: center;
      align-items: center;
@@ -156,19 +148,19 @@ button {
      text-align: center;
      margin: 0% auto;
      width: 80%;
- }
+}
 .conocimientos-boxes img{
-    height: 100px;
-    padding-bottom: 15px;
-    margin: 0 auto; /*!!!*/
+    height: 6.25em;
+    padding-bottom: 0.938em;
+    margin: 0 auto; 
 }
 .conocimientos-boxes div {
     border: solid gray 2px;
     border-radius: 3%;
-    padding: 60px 90px;
-    margin: 10px;
+    padding: 3.75em 5.625em;
+    margin:0.625em;
     background-color: white;
-    text-align: center;/*!!!*/
+    text-align: center;
 }
 .conocimiento-boxes div a {
     padding: 0%;
@@ -192,44 +184,37 @@ color: violet;
 }
 .cita-div {
     width: 70%;
-    /*margin: 0 auto;*/
     display: flex;
     justify-content: stretch;
     flex-direction: column;
     align-items: center;
-    border:rgb(235, 82, 27) solid 3px;
 }
 .img-comillas {
     margin: 0.5em 0;
     width: 30%;
-    border: saddlebrown solid 2px;
 }
 .texto-cita {
     margin: 2em 0;
     width: 80%;
     align-content: center;
-    border: saddlebrown solid 2px;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .someone {
     margin: 2em 0;
     width: 20%;
     align-content: center;
-    font-size: 2em;
-    border: saddlebrown solid 2px;
+    font-size: 2rem;   
 }
 /*----Fin Cita----*/
 /*---- Inicio Mis Proyectos----*/
 .proyectos{
     padding-top: 12vh;
     width: 100%;
-    border: solid violet 3px;
 }
 .proyectos-texto{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 70%;
     margin: 5% auto;
-    border: solid palevioletred 3px;
 }
 .proyectos-titulo{
     margin-bottom: 1em;
@@ -242,18 +227,15 @@ color: violet;
     text-align: center;
     margin: 0% auto;
     width: 80%;
-    border: yellowgreen solid 2px;
 }
-
 .proy img{
    height: 12.5em;
    width: 12.5em;
    padding-bottom: 2em;
    margin: 1.0em auto;
-   border: tomato 2px solid;
 }
 .proy{
-   display: flex;
+    display: flex;
     border: #FFBD9B 1px solid;
     border-radius: 10px;
     background-color: whitesmoke;
@@ -263,82 +245,71 @@ color: violet;
     align-items: center;
     flex-direction: column;
 }
- .proy p{
+.proy p{
     font-family: 'Karla', sans-serif;
     text-transform: capitalize;
- }
+}
 .proyectos-boxes div:hover {
-border: solid violet 2px;
-color: violet;
+    border: solid violet 2px;
+    color: violet;
 }
 /*----Fin Mis Proyectos----*/
 /*----Inicio Contactame----*/
-#Contacto {
+.contacto {
     padding-top: 12vh;
     width: 100%;
-    border: solid violet 3px;
     display: flex;
-	justify-content: center;
-	
+	justify-content: center;	
 }
-.Contactame{
+.contactame{
     width: 50%;
     flex-direction: row;
 	flex-wrap: wrap;
     text-align: left;
     padding: 3em;
-    border: solid rgb(124, 1, 1) 3px;
 }
-.Contactame h1 {
+.contactame h1 {
     font-family: 'Karla', sans-serif;
     margin-bottom: 1em;
 }
-
-.Contactame-list {
+.contactame-list {
     display: flex;
     justify-content: center;
     flex-direction: column;
 	align-items: flex-start;
 	align-content: space-around;
     margin-top:1em;
-    border: solid yellow 3px;
 }
 .contact-item {
     list-style: none; 
     margin: 1em; 
-    border: yellowgreen 1px solid;
-    }
+}
 .contact-item a { 
     text-transform:none;
 }
-
 .contact-item i {
     margin: 0.5em;
 }
-.Escribime{
+.escribime{
     width: 50%;
     flex-direction: row;
 	flex-wrap: wrap;
     text-align: left;
     padding: 3em;
-    border: solid green 3px;
 }
-.Escribime h1 { 
+.escribime h1 { 
     margin: 0.5em 0;
 }
 .div1-form {
     display: flex;
-    border: red solid 3px;
     justify-content:center;
 }
 .nombre-form, .apellido-form {
- width: 50%;
- border: violet solid 3px;
+    width: 50%;
 }
 label {
     display: block;
     margin: 0.5em 0;
-    border:green solid 3px;
 }
 input {
     border-radius: 15px;
@@ -356,14 +327,13 @@ textarea{
 .email-form input {
     width: 90%;
 }
-
+/*----Fin Contactame----*/
 /*---- Inicio footer----*/
 footer {
     display: flex;
     justify-content: center;
 	flex-direction: column;
     background-color: rgba(14, 188, 194, 0.664);
-    border: yellowgreen 3px solid;
 }
 .footer-container {
     width: 50%;
@@ -374,14 +344,12 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    border:  purple 2px solid;
     list-style: none;
 }
 .footer-list li {
     text-decoration: none;
     margin: 3% 0;
     padding: 2%;
-    border:orangered solid 2px;
 }
 .footer-redes {
     width: 30%;
@@ -395,8 +363,6 @@ footer {
     background-color: white;
     border-radius: 50%;
     padding: 50%;
-    border: solid white 1px;
-    
 }
 .redes:hover {
     background-color: rgba(14, 188, 194, 0.664) ;
@@ -409,7 +375,6 @@ footer {
     height: 100vh;
    }
 }
-
 @media (max-width:1100px){
     header {
         display: none;
@@ -431,10 +396,10 @@ footer {
     .someone {
         width: 100%;
     }
-    #Contacto {
+    .contacto {
         flex-direction: column;
     }
-    .Contactame, .Escribime{
+    .contactame, .escribime{
         width: 100%;
     }
 }
@@ -463,7 +428,7 @@ footer {
     .centrado{
         padding: 0 1em;
     }
-    .Contactame-list{
+    .contactame-list{
         width: 100%;
     }
     .footer-redes {
